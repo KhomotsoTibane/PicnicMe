@@ -1,0 +1,6 @@
+Good day, I trust you are well.
+
+This task was a bit challenging for me. 
+
+some functionality doesnt quite work properly.
+I tried to decrease the size of my images but the page still seems to load slow.

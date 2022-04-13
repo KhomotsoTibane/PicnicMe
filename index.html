@@ -16,9 +16,9 @@
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
@@ -26,6 +26,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+     <script type = "text/javascript" 
+     src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+  </script>
 
 </head>
 
@@ -39,40 +42,49 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu">Our Offering</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#socialMedia">Contact</a>
+                    <a class="nav-link" href="catalogue.html">Catalogue</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Orders</a>
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!-- Carousel for landing page with slideshow images and reviews -->
+    <h1 class="'welcome">Welcome, you are now one step closer to a perfect picnic </h1>
     <div id="picnic-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active container-fluid">
                 <img class="picnic-image" src="images/carousel1.jpg" alt="picnic">
-                <em>Picnic for two</em>
+                <q>Thank you for the lovely picnic basket, enjoyed all of it</q>
+                <p>Jill Henning</p>
             </div>
             <div class="carousel-item container-fluid">
                 <img class="picnic-image" src="images/carousel2.jpg" alt="picnic">
-                <em>Cheers</em>
+                <q>Impressed is an understatement!!</q>
+                <p>Amanda White</p>
             </div>
             <div class="carousel-item container-fluid">
                 <img class="picnic-image" src="images/carousel3.jpg" alt="picnic">
-                <em>Friends for ever</em>
+                <q>Love it, Love it, Love it</q>
+                <p>Sheila Ndlovu</p>
             </div>
             <div class="carousel-item container-fluid">
                 <img class="picnic-image" src="images/carousel4.jpg" alt="picnic">
-                <em>To many more</em>
+                <q>Fantastic service, the food was perfectly done. Thanks a lot!</q>
+                <p>Koos Kombuis</p>
             </div>
             <div class="carousel-item container-fluid">
                 <img class="picnic-image" src="images/carousel5.jpg" alt="picnic">
-                
-                <em>Good times</em>
+                <q>Thank you for the lovely picnic basket, enjoyed all of it</q>
+                <p>Pearl Applesead</p>
             </div>
         </div>
         <a class="carousel-control-prev" href="#picnic-carousel" role="button" data-slide="prev">
@@ -83,160 +95,34 @@
 
         </a>
     </div>
-    <hr>
-    <!-- hoverable table -->
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th colspan="4" id="headinggallery">Let us handle the food and you worry about relaxing</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row"> Bakery </th>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/Choc-cake.jpg"
-                            alt="cake-img" data-holder-rendered="true">
-                        <h2>Cake</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/biscuit-two.jpg"
-                            alt="biscuit-img" data-holder-rendered="true">
-                        <h2>Biscuit</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/cupcake.jpg"
-                            alt="cupcake-img" data-holder-rendered="true">
-                        <h2>Cupcake</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Fruits</th>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/fruit/watermelon.jpg"
-                            alt="watermelon-img" data-holder-rendered="true">
-                        <h2>Watermelon</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/fruit/pineapple.jpg"
-                            alt="pineapple-img" data-holder-rendered="true">
-                        <h2>Pineapple</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/fruit/strawberry.jpg"
-                            alt="strawberry-img" data-holder-rendered="true">
-                        <h2>Strawberry</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Kitchen</th>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/food/wrap.jpg"
-                            alt="chicken-wrap-img" data-holder-rendered="true">
-                        <h2>Wraps</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/food/egg-sandwich.jpg"
-                            alt="sandwich-img" data-holder-rendered="true">
-                        <h2>Sandwich</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/food/salad-two.jpg"
-                            alt="salad-img" data-holder-rendered="true">
-                        <h2>Salad</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <th scope="row">Wines</th>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/red-wine-dark.jpg"
-                            alt="red-wine-img" data-holder-rendered="true">
-                        <h2>Red Wine</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/white-wine-two.jpg"
-                            alt="white-wine-img" data-holder-rendered="true">
-                        <h2>White Wine</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-                <td>
-                    <div class=" storeItem ">
-                        <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/sparkling-wine.jpg"
-                            alt="sparkling-wine-img" data-holder-rendered="true">
-                        <h2>Sparkling Wine</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p><a class="btn btn-secondary" href="">Add to basket</a></p>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <!-- End Carousel for landing page with slideshow images -->
 
     <hr>
+    <!-- Subscription form -->
     <h1 class="h3 mb-3 font-weight-normal">Sign up to our newsletter for promotional updates</h1>
 
     <div class="formSignUp">
-        <form class="form-inline form-signup ">
-            <input type="text" class="form-control top" placeholder="First Name" required autofocus>
-            <input type="text" class="form-control middle" placeholder="Last Name" >
-            <input type="email" class="form-control bottom" placeholder="Email " >
-            <button class="btn btn-md btn-primary btn-inline" type="submit">Sign Me UP!</button>
+        <form class="form-inline">
+            <input type="email" class="form-control email" placeholder="Email ">
+            <button class="btn btn-md btn-primary btn-inline" type="submit">Subscribe</button>
         </form>
     </div>
     <hr>
+    <!-- End Subscription form-->
+
+
+
+    <!-- Socials -->
     <footer class="container-fluid footer" id="socialMedia">
         <h2>Connect with us and share your moments</h2>
-        <i class="social-icon fab fa-twitter "></i>
-        <i class="social-icon fab fa-facebook "></i>
-        <i class="social-icon fab fa-instagram "></i>
-        <i class="social-icon fa fa-envelope "></i>
+        <i class="social-icon fab fa-twitter" style="color:#1DA1F2"></i>
+        <i class="social-icon fab fa-facebook" style="color:#4267B2"></i>
+        <i class="social-icon fab fa-instagram" style="color:#C13584 "></i>
+        <i class="social-icon fa fa-envelope" style="color:#DB4437 "></i>
 
         <p class="mt-5 mb-3 text-muted">2022 &copy; Picnic-Me || Khomotso Tibane</p>
     </footer>
+    <!-- End Socials -->
 </body>
 
 </html>

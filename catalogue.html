@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Picnic-Menu</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+    </script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">Picnic Me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogue.html">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cart" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2>Let us handle the food and you worry about relaxing</h2>
+
+    <!-- Catalogue -->
+    <section class="products">
+        <div class="row">
+            <div class="col storeItemHeading">Bakery </div>
+            <div class="col storeItem">
+
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/Choc-cake.jpg"
+                    alt="cake-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Cake</h2>
+                <span class="itemPrice">R50.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/biscuit-two.jpg"
+                    alt="biscuit-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Biscuit</h2>
+                <span class="itemPrice">R8.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/cake/cupcake.jpg"
+                    alt="cupcake-img" data-holder-rendered="true">
+                <h2 class="itemTitle"">Cupcake</h2>
+            <span class=" itemPrice">R11.99</span>
+                    <details>
+                        <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                        Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                        Vestibulum
+                        eget tellus nunc.
+                    </details>
+                    <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col storeItemHeading">Fruits</div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/fruit/watermelon.jpg"
+                    alt="watermelon-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Watermelon</h2>
+                <span class="itemPrice">R39.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded pineapple" width="140" height="140" src="images/fruit/pineapple.jpg"
+                    alt="pineapple-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Pineapple</h2>
+                <span class="itemPrice">R24.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/fruit/strawberry.jpg"
+                    alt="strawberry-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Strawberry</h2>
+                <span class="itemPrice">R21.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col storeItemHeading">Kitchen</div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/food/wrap.jpg"
+                    alt="chicken-wrap-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Wraps</h2>
+                <span class="itemPrice">R29.99</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded egg-sandwich" width="140" height="140"
+                    src="images/food/egg-sandwich.jpg" alt="sandwich-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Sandwich</h2>
+                <span class="itemPrice">R35.00</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/food/salad-two.jpg"
+                    alt="salad-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Salad</h2>
+                <span class="itemPrice">R20.00</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+        </div>
+
+
+        <!-- wines -->
+        <div class="row">
+            <div class="col storeItemHeading">Wines</div>
+            <div class=" col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/red-wine-dark.jpg"
+                    alt="red-wine-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Red Wine</h2>
+                <span class="itemPrice">R85.00</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+
+            <div class="col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/white-wine-two.jpg"
+                    alt="white-wine-img" data-holder-rendered="true">
+                <h2 class="itemTitle">White Wine</h2>
+                <span class="itemPrice">R150.00</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+
+            <div class=" col storeItem ">
+                <img class="img-thumbnail rounded" width="140" height="140" src="images/wine/sparkling-wine.jpg"
+                    alt="sparkling-wine-img" data-holder-rendered="true">
+                <h2 class="itemTitle">Sparkling Wine</h2>
+                <span class="itemPrice">R130.00</span>
+                <details>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</summary>
+                    Curabitur libero lorem, dapibus eget ipsum non, fermentum posuere ex. Nam at pretium risus.
+                    Vestibulum
+                    eget tellus nunc.
+                </details>
+                <button class="btn btn-secondary itemButton" type="button">Add to basket</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Catalogue -->
+    <hr>
+
+    <!-- Subscription form -->
+    <h1 class="h3 mb-3 font-weight-normal">Sign up to our newsletter for promotional updates</h1>
+
+    <div class="formSignUp">
+        <form class="form-inline form-signup ">
+            <input type="email" class="form-control bottom" placeholder="Email ">
+            <button class="btn btn-md btn-primary btn-inline" type="submit">Subscribe</button>
+        </form>
+    </div>
+    <hr>
+    <!-- End Subscription form-->
+
+    <!-- Socials -->
+    <footer class="container-fluid footer" id="socialMedia">
+        <h2>Connect with us and share your moments</h2>
+        <i class="social-icon fab fa-twitter" style="color:#1DA1F2"></i>
+        <i class="social-icon fab fa-facebook" style="color:#4267B2"></i>
+        <i class="social-icon fab fa-instagram" style="color:#C13584 "></i>
+        <i class="social-icon fa fa-envelope" style="color:#DB4437 "></i>
+
+        <p class="mt-5 mb-3 text-muted">2022 &copy; Picnic-Me || Khomotso Tibane</p>
+    </footer>
+    <!-- End Socials -->
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+<!-- unsplash (https://unsplash.com/) -->
+<!--Lorem Ipsum Generator (https://www.lipsum.com/feed/html) -->
